@@ -5,4 +5,4 @@ const servicesRouter = require("./services");
 
 router.use("/", servicesRouter);
 
-modules.exports = router;
+module.exports = router;
