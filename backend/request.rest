@@ -25,3 +25,31 @@ Content-Type: application/json
     "price":10000,
     "image":"https://images.unsplash.com/photo-1580163661417-3606299aba72?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 }
+
+
+###
+POST http://localhost:3000/api/parties
+Content-Type: application/json
+
+
+{
+    "title":"Evento teste 2",
+    "author":"Marcelo",
+    "description":"Festa primeiro backend (com serviços)",
+    "budget":1500,
+    "image":"https://images.unsplash.com/photo-1580163661417-3606299aba72?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "services":[
+        {
+            "name":"algum serviço 1",
+             "description":"Alcool",
+             "price":1000,
+            "image":"https://images.unsplash.com/photo-1580163661417-3606299aba72?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        },
+        {
+            "name":"algum serviço 2",
+             "description":"Decoração tema",
+             "price":850,
+            "image":"https://images.unsplash.com/photo-1580163661417-3606299aba72?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        }  
+    ]
+}
