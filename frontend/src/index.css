@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: #f5f6fa;
+    background-color: #d1d1d1;
 }
 
 ul{
@@ -23,4 +23,20 @@ a{
 
 p{
     color: #747990;
+}
+.btn, .btn-two {
+    background-color: #7703fc;
+    color: #fff;
+    padding: .5rem 1rem;
+    border-radius: 8px;
+    transition: all 0.4s;
+    cursor: pointer;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); 
+    display: block;
+}
+
+.btn:hover, .btn-two:hover {
+    opacity: 0.8;
+    transform: scale(1.05); 
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.2); 
 }

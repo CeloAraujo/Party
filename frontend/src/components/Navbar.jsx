@@ -7,7 +7,7 @@ const Navbar = () => {
       <h2>Fun Time</h2>
       <ul>
         <li>
-          <NavLink to="/">Minhas Festas</NavLink>
+          <NavLink to="/" className="myparty">Minhas Festas</NavLink>
         </li>
         <li>
           <NavLink to="/party/new" className="btn">

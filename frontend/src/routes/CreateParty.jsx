@@ -2,6 +2,8 @@ import partyFetch from "../axios/config";
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 
+import './Forms.css'
+
 const CreateParty = () => {
   const [services, setServices] = useState([]);
 
@@ -17,7 +19,7 @@ const CreateParty = () => {
 
   return (
     <div className="form-page">
-      <h2>Cria sua festa!</h2>
+      <h2>Crie sua festa!</h2>
       <p>Seu orçamento e escolha de serviços</p>
       <form>
         <label>
@@ -29,7 +31,7 @@ const CreateParty = () => {
           />
         </label>
         <label>
-          <span>Anfitrião</span>
+          <span>Anfitrião:</span>
           <input type="text" placeholder="Quem é o dono do evento?" required />
         </label>
         <label>
