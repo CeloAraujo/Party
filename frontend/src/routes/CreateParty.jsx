@@ -1,4 +1,4 @@
-import React from "react";
+import partyFetch from '../axios/config'
 
 const CreateParty = () => {
   return (
