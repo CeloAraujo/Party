@@ -43,6 +43,9 @@ const EditParty = () => {
 
     if (checked) {
       partyServices = [...partyServices, filteredService[0]];
+
+
+      
     } else {
       partyServices = partyServices.filter((fil) => fil._id !== value);
     }
