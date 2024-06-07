@@ -49,6 +49,8 @@ const Party = () => {
         </button>
       </div>
       <p>Orçamento: R${party.budget}</p>
+      <h3>Descrição:</h3>
+      <p>{party.description}</p>
       <h3>Serviços contratados:</h3>
       <div className="services-container">
         {party.services.map((service) => (
